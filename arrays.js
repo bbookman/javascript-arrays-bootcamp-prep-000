@@ -4,3 +4,7 @@ var chocolateBars =["snickers", "hundred grand", "kitkat", "skittles"]
    var result = [element,...array]
   return result
 }
+
+function destructivelyAddElementToBeginningOfArray(array, element){
+  var result = array.
+}
