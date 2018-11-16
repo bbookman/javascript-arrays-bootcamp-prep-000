@@ -6,8 +6,8 @@ var chocolateBars =["snickers", "hundred grand", "kitkat", "skittles"]
 }
 
 function addElementToEndOfArray(array, element) {
-  array.push(element)
-  return array
+    var new_array = [...array, element];
+    return new_array
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
