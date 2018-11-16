@@ -29,11 +29,6 @@ function accessElementInArray(array, index) {
     return array[index]
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(array) {
-    array.shift()
-    return array
-}
-
 function removeElementFromBeginningOfArray(array) {
     var new_array = array.slice(1)
     return new_array
@@ -49,3 +44,8 @@ function removeElementFromEndOfArray(array) {
     return new_array
 }
 
+function destructivelyAddElementToBeginningOfArray(array, element){
+  array.unshift(element)
+  return array
+  
+}
